@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Đăng Ký</h2>
+        <form class="form_content" action="">
+            <div class="textfield">
+                <input type="text" required>
+                <span></span>
+                <label for="">Tài Khoản</label>
+            </div>
+            <div class="textfield">
+                <input type="password" required>
+                <span></span>
+                <label for="">Mật Khẩu</label>
+            </div>
+            <div class="textfield">
+                <input type="password" required>
+                <span></span>
+                <label for="">Nhập Lại Mật Khẩu</label>
+            </div>
+            <div class="checkboxx">
+                <input type="checkbox" name="tick" id="tick" onclick="change_color()">
+                <label id="lb" for="tick">Tôi đồng ý với Điều Khoản Dịch Vụ và <div style="padding-top: 4px;">Chính Sách Bảo Mật.</div></label>
+            </div>
+            <button type="button">Đăng Ký</button>
+        </form>
+        <div class="foot">
+            
+        </div>
+    </div>
+
+    <script src="./change.js"></script>
+</body>
+</html>
